@@ -1,0 +1,74 @@
+{
+  "name": "Santhosh Bell",
+  "title": "Junior Robotics Engineer",
+  "contact": {
+    "email": "santhosh200707@gmail.com",
+    "phone": "9345892833",
+    "location": "Tirunelveli, Tamil Nadu, India"
+  },
+  "summary": "Robotics & IoT enthusiast with hands-on experience in Arduino, ESP32, Raspberry Pi, and ROS. Strong foundation in Embedded Systems, IoT communication, and AI-based robotics concepts. Seeking a Junior Robotics Engineer position to apply practical knowledge in robot development, automation systems, and intelligent robotic solutions in real-world applications.",
+  "technical_skills": {
+    "programming": ["C++", "Python", "Embedded C"],
+    "embedded_iot": ["Arduino", "ESP32", "ESP8266", "Raspberry Pi"],
+    "protocols": ["UART", "I2C", "SPI", "MQTT", "HTTP"],
+    "robotics": ["ROS (Basics)", "Gazebo", "Sensor Integration", "Motor Integration"],
+    "tools": ["Arduino IDE", "EasyEDA", "Proteus", "Tinkercad"],
+    "ai_basics": ["OpenCV (Basic)", "Machine Learning Concepts for Robotics"]
+  },
+  "hardware_experience": [
+    "Sensor Integration (DHT11, Ultrasonic, IR, LDR, Gas Sensors)",
+    "Motor Drivers & Power Systems",
+    "PCB Design & Soldering",
+    "Serial Communication (UART, I2C, SPI)"
+  ],
+  "education": [
+    {
+      "year": "2020-2021",
+      "degree": "Higher Secondary Certificate",
+      "institution": "Walker Higher Secondary School"
+    },
+    {
+      "year": "2021-2025",
+      "degree": "B.E Robotics and Automation",
+      "institution": "Loyola Institute of Technology and Science"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Smart Home Automation (IoT)",
+      "description": [
+        "ESP32-based appliance control with web dashboard",
+        "MQTT communication & cloud integration"
+      ]
+    },
+    {
+      "name": "IoT Weather Monitoring System",
+      "description": [
+        "Sensor data collection",
+        "Real-time cloud logging"
+      ]
+    },
+    {
+      "name": "ROS-Based Robot Simulation",
+      "description": [
+        "Publisher/Subscriber model implementation",
+        "Robot simulation using Gazebo"
+      ]
+    },
+    {
+      "name": "Capstone Project – IoT + Robotics Integration",
+      "description": [
+        "Arduino + ESP + Raspberry Pi + ROS integration",
+        "End-to-end working prototype with dashboard"
+      ]
+    }
+  ],
+  "soft_skills": [
+    "Problem Solving",
+    "Analytical Thinking",
+    "Team Collaboration",
+    "Project Documentation",
+    "Technical Presentation"
+  ],
+  "languages": ["Tamil", "English"]
+}

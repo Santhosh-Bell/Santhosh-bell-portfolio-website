@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About | Santhosh</title>
+
+<style>
+
+/* GLOBAL */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(-45deg, #0d1117, #111827, #020617);
+  background-size: 400% 400%;
+  animation: bg 10s ease infinite;
+  color: white;
+}
+
+@keyframes bg {
+  0% {background-position:0% 50%;}
+  50% {background-position:100% 50%;}
+  100% {background-position:0% 50%;}
+}
+
+/* NAVBAR */
+.navbar {
+  position: fixed;
+  width: 100%;
+  background: rgba(0,0,0,0.6);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+}
+
+.logo {
+  color: #00eaff;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: #00eaff;
+}
+
+/* CONTAINER */
+.container {
+  padding: 120px 50px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* CARD */
+.card {
+  background: rgba(255,255,255,0.05);
+  padding: 25px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  margin-bottom: 30px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px #00eaff;
+}
+
+/* HEADINGS */
+h1, h2 {
+  color: #00eaff;
+}
+
+/* TIMELINE */
+.timeline {
+  border-left: 2px solid #00eaff;
+  padding-left: 20px;
+}
+
+.timeline div {
+  margin-bottom: 20px;
+}
+
+/* BUTTON */
+.btn {
+  padding: 10px 20px;
+  border-radius: 25px;
+  background: #00eaff;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">Santhosh AI</div>
+  <div class="nav-links">
+    <a href="{{ url_for('home') }}">Home</a>
+    <a href="{{ url_for('about') }}">About</a>
+    <a href="{{ url_for('projects') }}">Projects</a>
+ 
+  </div>
+</nav>
+
+<div class="container">
+
+  <!-- ABOUT -->
+  <div class="card">
+    <h1>About Me 👨‍💻</h1>
+    <p>
+      Hey! I'm <b>Santhosh</b>, Robotics and Automation graduate passionate about AI and Arduino-based systems.
+I build intelligent robots, smart IoT solutions, and AI-powered web applications.
+    </p>
+    <p>
+      I love working with Python, Machine Learning, and Full Stack Development.
+      My goal is to create smart solutions that solve real-world problems.
+    </p>
+  </div>
+
+  <!-- EXPERIENCE -->
+  <div class="card">
+    <h2>Experience 🚀</h2>
+    <div class="timeline">
+      <div>
+        <b>AI Chatbot Developer</b>
+        <p>Built smart chatbot using Flask + LangChain</p>
+      </div>
+
+      <div>
+        <b>Machine Learning Projects</b>
+        <p>Worked on emotion detection and prediction models</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="card">
+    <h2>Education 🎓</h2>
+    <p>Bachelor's Degree in Computer Science (or your course)</p>
+  </div>
+
+  <!-- CONTACT -->
+  <div class="card">
+    <h2>Contact 📬</h2>
+    <p>Email: santhosh200707@email.com</p>
+    <p>Phone: +91 9345892833</p>
+<a href="{{ url_for('static', filename='pdf/santhoshbellresume.pdf') }}" download class="btn">
+Download Resume
+</a>
+  </div>
+
+</div>
+
+</body>
+</html>
